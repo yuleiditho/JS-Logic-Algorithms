@@ -2,9 +2,10 @@
 Aplicación web para planificación y gestión de viajes, con registro de reservas, validación de disponibilidad y visualización de itinerarios.
 
 ## Uso con Servidor Local:
-Para el funcionamiento de los módulos ES6 se recomienda usar la extensión de [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) en **VSCode**
+1. **Requisito**
+   - Para el funcionamiento de los módulos ES6 se recomienda usar la extensión de [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) en **VSCode**
 
-1. **Ejecutar el proyecto**:
+3. **Ejecutar el proyecto**:
     -   Abrir `home.html`
     -   Click derecho en el editor > **"Open with Live Server"**
     -   Se abrirá automáticamente en `http://localhost:5500`
@@ -76,7 +77,7 @@ calcularCosto = () => {
 const destinoFinal = destinos.find(d => d.destino === this.destino);
 ```
 - `.find()` para búsquedas
-- `-forEach()` para iteraciones
+- `.forEach()` para iteraciones
 
 ## Estructura 
 - `appTravel.js`: Uso de DOM y frontend
