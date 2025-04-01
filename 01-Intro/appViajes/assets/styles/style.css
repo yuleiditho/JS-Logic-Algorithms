@@ -196,15 +196,16 @@ input[type="submit"]:hover {
     margin-bottom: 10px;
     border-radius: 4px;
     background-color: #f8f9fa;
-    border-left: 4px solid #6c757d;
 }
 
 #lista-viajes .viaje-valido {
-    border-left-color: #28a745;
+    background-color: #d5fde1;
+    border: 2px solid rgb(109, 199, 6);
 }
 
 #lista-viajes .viaje-invalido {
-    border-left-color: #dc3545;
+    background-color: #e7c4c7;
+    border: 2px solid rgb(243, 104, 104);
 }
 
 
@@ -226,7 +227,7 @@ select {
     border-radius: 8px;
     padding: 1rem;
     margin-bottom: 1rem;
-    border-left: 4px solid #666bb4;
+    border: 2px solid #666bb4;
 }
 
 .destino-card h3 {

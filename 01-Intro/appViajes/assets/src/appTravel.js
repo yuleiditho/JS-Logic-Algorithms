@@ -67,15 +67,19 @@ const mostrarViajes = () => {
         
         if (typeof validacion === 'string') {
             li.innerHTML = `
-                <strong>${viaje.destino}</strong> - ${viaje.fecha}<br>
-                <strong>Transporte:</strong> ${viaje.transporte} <br> Boletos: ${viaje.boletos}<br>
+                <strong>Destino:</strong> ${viaje.destino} <br>
+                <strong>Transporte:</strong> ${viaje.transporte} <br>
+                <strong>Fecha:</strong> ${viaje.fecha} <br>
+                <strong>Boletos:<strong>${viaje.boletos}<br>
                 <span class="error">${validacion}</span>
             `;
             li.className = 'viaje-invalido';
         } else {
             li.innerHTML = `
-                <strong>${viaje.destino}</strong> - ${viaje.fecha}<br>
-                Transporte: ${viaje.transporte} <br> Boletos: ${viaje.boletos}<br>
+                <strong>Destino:</strong> ${viaje.destino} <br>
+                <strong>Transporte:</strong> ${viaje.transporte} <br>
+                <strong>Fecha:</strong> ${viaje.fecha} <br>
+                <strong>Boletos:<strong>${viaje.boletos}<br>
                 Costo total: $${viaje.costo}
             `;
             li.className = 'viaje-valido';
