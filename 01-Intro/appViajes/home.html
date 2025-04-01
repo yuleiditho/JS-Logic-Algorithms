@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App de Viajes</title>
+    <link rel="stylesheet" href="./assets/styles/style.css">
+</head>
+<body>
+    <nav class="sidebar">
+        <nav class="sidebar">
+            <div class="tabs">
+                <a data-target="registro-content" class="tab active">Registro Viajes</a>
+                <a data-target="itinerario-content" class="tab">Itinerario Viajes</a>
+                <a data-target="destinos-content" class="tab">Destinos Disponibles</a>
+            </div>
+        </nav>        
+    </nav>
+
+    <main class="container">
+        <div class="container-headline">
+            <h2>App Viajes</h2>
+        </div>
+
+        <section class="tab-content-wrapper">
+            <div id="registro-content" class="tab-content active ">
+                <form action="#" method="post" id="registroViajes">
+                    <label for="destino">Destino:</label>
+                    <select name="destino" id="destino" required>
+                        <option value="">Selecciona un destino</option>
+                    </select>
+
+                    <label for="transporte">Transporte:</label>
+                    <select name="transporte" id="transporte" required>
+                        <option value="">Transporte Disponible</option>
+                    </select>
+                    
+                    <label for="date">Fecha:</label>
+                    <input type="date" name="date" id="date" required>
+                
+                    <label for="cantidad">Boletos:</label>
+                    <input type="number" name="cantidad" id="cantidad" max="10" min="1" required>
+                    <input type="submit" value="Reservar">
+                    
+                    
+                </form>
+                <div id="mensaje" class="mensaje"></div>
+
+                
+            </div>
+
+            <div id="itinerario-content" class="tab-content all-comments">
+                <div class="contenedor">
+                    <div id="lista-viajes"></div>
+                </div>
+            </div>
+
+            <div id="destinos-content" class="tab-content all-comments">
+                <div class="contenedor">
+                    <div id="lista-destinos"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+
+    <script type="module" src="./assets/src/appTravel.js"></script>
+</body>
+</html>
