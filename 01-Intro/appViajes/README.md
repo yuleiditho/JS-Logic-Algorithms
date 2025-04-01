@@ -31,8 +31,56 @@ Navegación de la aplicación con un menú interactivo:
 
  ![Vista Previa](./assets/media/registros.png)
 
-## Gestión de Datos: 
+## 1. Gestión de Datos: 
   - Sistema de clases ES6
   - Modelos para destinos, transportes y viajes
-    
 
+## 2. Módulos ES6
+```javascript
+// Ejemplo en app.js
+import { Viajes } from "./viajes.js";
+import { destinos } from "./destinos.js";
+```
+
+## 3. Clases ES6
+```javascript
+// Ejemplo en transportes.js
+export class Transporte {
+    constructor(tipo, costoExtra) {
+        this.tipo = tipo;
+        this.costoExtra = costoExtra;
+    }
+
+    //Método de instancia
+    mostrarTransporte() {
+        console.log(`Tipo: ${this.tipo} - Costo Extra: ${this.costoExtra}`);
+    }
+}
+```
+
+### Aplicación en el proyecto:
+- Modelado de entidades (Destino, Transporte, Viajes)
+- Métodos de instancia (mostrarTransporte(), mostrarDestinos(), validarViajes(), etc.)
+
+## 4. Arrow Functions
+```javascript
+// Ejemplo en viajes.js
+calcularCosto = () => {
+  // Lógica de cálculo...
+}
+```
+
+## 5. Métodos de Array
+```javascript
+// Ejemplo en validarViaje()
+const destinoFinal = destinos.find(d => d.destino === this.destino);
+```
+- `.find()` para búsquedas
+- `-forEach()` para iteraciones
+
+## Estructura 
+- `appTravel.js`: Uso de DOM y frontend
+- `app.js`: Punto de entrada
+- `viajes.js`: Lógica de reservas y validaciones
+- `destinos.js`: Modelado y  datos de destinos
+- `transportes.js`: Modelado y datos de transportes
