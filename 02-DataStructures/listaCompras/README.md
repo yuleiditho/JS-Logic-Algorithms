@@ -12,7 +12,7 @@ Este proyecto implementa estructuras de datos básicas, aplicadas en una lista d
 
 3. **Renderizado**: El array `listaProductos` se recorre para mostrar los elementos en el DOM.
 
-![lading](/02-DataStructures/listaCompras/img/landing.png)
+![checkbox](/02-DataStructures/listaCompras/img/home2.png)
 
 ## Estructura:
 -   `app.js`: Coordina toda la aplicación
