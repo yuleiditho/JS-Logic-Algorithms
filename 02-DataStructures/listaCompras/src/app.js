@@ -97,6 +97,15 @@ const actualizarListaDOM = () =>{
             deleteProducto(producto.producto);
         });
 
+        const checkbox = row.querySelector('input[type="checkbox"]');
+        checkbox.addEventListener('change', (e) => {
+            if(e.target.checked){
+                row.classList.add('checked');
+            }else{
+                row.classList.remove('checked');
+            }
+        })
+
         listContainer.appendChild(row);
     });
 

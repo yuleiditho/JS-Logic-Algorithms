@@ -119,3 +119,10 @@ input[type='checkbox']:checked {
     color: var(--background);
     border: none;
 }
+
+.cnt-row.checked .product-col,
+.cnt-row.checked .dept-col {
+    text-decoration: line-through;
+    color: var(--light-gray);
+    opacity: 0.7;
+}
