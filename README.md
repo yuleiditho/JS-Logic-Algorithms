@@ -52,6 +52,7 @@ Formas de organizar y almecenar datos para acceso y modificación eficiente
 
 <details>
 <summary><strong> Métodos de Arreglos </strong></summary>
+
 ### Métodos de Iteración
 - **forEach()**: Ejecuta una función para cada elemento del arreglo.
 - **map()**: Crea un nuevo arreglo transformando los elementos del original.
