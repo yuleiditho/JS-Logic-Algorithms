@@ -88,3 +88,23 @@ Formas de organizar y almecenar datos para acceso y modificación eficiente
 - **toString()**: Convierte el arreglo en una representación textual.
 
 </details>
+
+## Clase 4. Punteros
+
+### Solución [Invitados](https://github.com/yuleiditho/JS-Logic-Algorithms/tree/main/04-Punteros/guestEvent)
+
+Este proyecto resuelve el problema de encontrar pares de nombres en una lista que comparten la misma inicial, usando el patrón de dos punteros.
+
+### Patrón de Dos Punteros
+El **patrón de dos punteros** es una técnica poderosa y versátil que se utiliza comúnmente en problemas relacionados con arreglos o listas. Este enfoque emplea dos índices, llamados punteros, que recorren la estructura de datos para resolver problemas de manera eficiente.
+
+Este patrón es especialmente útil en los siguientes escenarios:
+- **Búsqueda eficiente**: Resolver problemas donde necesitas comparar o sumar elementos de una lista.
+- **Recorrido bidireccional**: Procesar datos desde ambos extremos del arreglo.
+- **Filtrado o agrupación de elementos**: Identificar o agrupar elementos que cumplen con una condición específica.
+- Problemas frecuentes en algoritmos como:
+  - Determinar si un arreglo es un palíndromo.
+  - Encontrar pares de números con una suma específica.
+  - Detectar subarreglos en listas.
+
+
