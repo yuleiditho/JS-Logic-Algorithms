@@ -43,6 +43,15 @@ Formas de organizar y almecenar datos para acceso y modificación eficiente
 
 
 ### Solución [Shop Online](https://github.com/yuleiditho/JS-Logic-Algorithms/tree/main/03-Array-Methods/shopOnline)
+
+## Métodos Utilizados
+- **map**: Para crear un arreglo con los nombres de los productos.
+- **sort**: Para ordenar los productos alfabéticamente por nombre.
+- **filter**: Para filtrar productos según condiciones específicas, como categoría o precio.
+- **reduce**: Para calcular el costo total de los productos filtrados.
+
+<details>
+<summary><strong> Métodos de Arreglos </strong></summary>
 ### Métodos de Iteración
 - **forEach()**: Ejecuta una función para cada elemento del arreglo.
 - **map()**: Crea un nuevo arreglo transformando los elementos del original.
@@ -77,4 +86,4 @@ Formas de organizar y almecenar datos para acceso y modificación eficiente
 - **join()**: Convierte el arreglo en una cadena de texto.
 - **toString()**: Convierte el arreglo en una representación textual.
 
-
+</details>
