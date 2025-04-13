@@ -39,3 +39,42 @@ Formas de organizar y almecenar datos para acceso y modificación eficiente
 ### Proyecto Práctico [App Shopping List](https://github.com/yuleiditho/JS-Logic-Algorithms/tree/main/02-DataStructures/listaCompras)
 ![lading](/02-DataStructures/listaCompras/img/home.png)
 
+## Clase 03. Array Methods
+
+
+### Solución [Shop Online](https://github.com/yuleiditho/JS-Logic-Algorithms/tree/main/03-Array-Methods/shopOnline)
+### Métodos de Iteración
+- **forEach()**: Ejecuta una función para cada elemento del arreglo.
+- **map()**: Crea un nuevo arreglo transformando los elementos del original.
+
+### Métodos de Transformación
+- **filter()**: Crea un arreglo con elementos que cumplen una condición.
+- **reduce() / reduceRight()**: Combina elementos del arreglo en un solo valor.
+
+### Métodos de Ordenación y Reorganización
+- **sort()**: Ordena los elementos del arreglo.
+- **reverse()**: Invierte el orden del arreglo.
+
+### Métodos de Búsqueda y Consulta
+- **find() / findIndex()**: Encuentra elementos o sus índices según una condición.
+- **includes()**: Comprueba si un elemento existe en el arreglo.
+- **indexOf() / lastIndexOf()**: Busca la posición de un elemento.
+
+### Métodos de Modificación
+- **push() / pop()**: Añade o elimina elementos al final del arreglo.
+- **shift() / unshift()**: Añade o elimina elementos al inicio del arreglo.
+- **splice()**: Añade, elimina o reemplaza elementos en cualquier posición.
+
+### Métodos de Copia y División
+- **slice()**: Devuelve una porción del arreglo.
+- **concat()**: Combina varios arreglos en uno solo.
+
+### Métodos de Comprobación
+- **every()**: Verifica si todos los elementos cumplen una condición.
+- **some()**: Comprueba si al menos un elemento cumple una condición.
+
+### Métodos de Conversión
+- **join()**: Convierte el arreglo en una cadena de texto.
+- **toString()**: Convierte el arreglo en una representación textual.
+
+
