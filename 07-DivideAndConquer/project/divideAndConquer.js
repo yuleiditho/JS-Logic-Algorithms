@@ -1,6 +1,6 @@
-function findMax(arr) {
+/*function findMax(arr) {
     // TODO: Agregar la condición del caso base
-    //if (/* condición */) {
+    //if (/* condición /*) {
         //return /* valor */;
     //}
 
@@ -19,3 +19,5 @@ function findMax(arr) {
 // Ejemplo de entrada
 const numbers = [3, 8, 2, 10, 5, 7];
 console.log(findMax(numbers)); // Salida esperada: 10
+
+*/
