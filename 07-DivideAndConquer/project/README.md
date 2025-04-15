@@ -1,6 +1,5 @@
-# Encontrar el Máximo en un Arreglo usando Divide y Vencerás
+## Encontrar el Máximo en un Arreglo usando Divide y Vencerás
 
-## Descripción
 Este programa utiliza el paradigma de **divide y vencerás** para encontrar el número máximo en un arreglo de números. Divide el arreglo en mitades, resuelve cada mitad recursivamente para encontrar el máximo en esa parte y finalmente combina los resultados al comparar los máximos obtenidos.
 
 ---
@@ -47,7 +46,7 @@ return Math.max(leftMax, rightMax);
 
 1. **Complejidad Temporal**:
     - La recursión divide el arreglo en mitades `log₂(n)` veces
-    - En cada nivel de división, se procesan todos los elementos
+    - En cada nivel de división, se procesan todos los elementos.
     - **Complejidad total:** `O(n log n)`
 
 2. **Complejidad Espacial**:
