@@ -107,4 +107,17 @@ Este patrón es especialmente útil en los siguientes escenarios:
   - Encontrar pares de números con una suma específica.
   - Detectar subarreglos en listas.
 
+## Clase 5. Sliding Window
+
+### Solución [findLongestWord](https://github.com/yuleiditho/JS-Logic-Algorithms/tree/main/05-Sliding-Window/worldTool)
+
+El **sliding window** es una técnica común en algoritmos que se utiliza para analizar datos de manera eficiente, delimitando un rango o "ventana" que se mueve dinámicamente a lo largo de una estructura, como un arreglo o cadena de texto.
+
+### Características Clave:
+- **Ventana dinámica**: Se define un intervalo que "desliza" a través de los datos, procesando segmentos sin necesidad de recorrer todo varias veces.
+
+- **Eficiencia**: Reduce el tiempo de procesamiento al manejar datos localmente dentro de la ventana, eliminando cálculos repetitivos.
+
+- **Espacio optimizado**: En lugar de almacenar todos los segmentos, la ventana gestiona la información en curso.
+
 
