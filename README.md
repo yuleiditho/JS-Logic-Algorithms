@@ -126,24 +126,19 @@ El **sliding window** es una técnica común en algoritmos que se utiliza para a
 
 ### Solución [findGiftCombinations](https://github.com/yuleiditho/JS-Logic-Algorithms/blob/main/06-Recursive-Backtracking/toDoList/recursionAndBacktracking.js)
 
-## Recursividad
+### Recursividad
 La **recursividad** es una técnica donde una función se llama a sí misma para resolver un problema. Es útil para dividir grandes tareas en partes más pequeñas y repetitivas.
 
-### Características Clave
 - **Caso base:** Condición que detiene la recursión y evita llamadas infinitas.
 - **Llamada recursiva:** La función se llama a sí misma con datos modificados hasta llegar al caso base.
 
-## Backtracking
+### Backtracking
 El **backtracking** es una técnica que explora todas las posibles soluciones a un problema. Si una opción no funciona, la función "retrocede" y prueba otra.
 
-### Características Clave
 - **Exploración:** Genera posibles soluciones probando diferentes caminos.
 - **Retroceso:** Deshace opciones inválidas y prueba otras posibilidades.
 - **Eficiencia:** Encuentra todas las soluciones posibles en problemas complejos.
 
-## Uso en Problemas
-- **Recursividad:** Buscar elementos, calcular factoriales, resolver problemas básicos.
-- **Backtracking:** Resolver sudokus, encontrar caminos en grafos, generar combinaciones y permutaciones.
 
 
 
