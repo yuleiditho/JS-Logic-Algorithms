@@ -1,25 +1,38 @@
 # JS- Lógica y Algoritmos
 Este repositorio es una guía práctica para comprender y aplicar conceptos fundamentales de JS. 
 
+##  Contenido
+
+- **[Clase 01: Intro a EMCAScript](#clase-01-intro-a-emcascript)**
+- **[Clase 02: Estructuras de Datos](#clase-02-estructuras-de-datos)**
+- **[Clase 03: Array Methods](#clase-03-array-methods)**
+- **[Clase 04: Punteros](#clase-4-punteros)**
+- **[Clase 05: Sliding Window](#clase-5-sliding-window)**
+- **[Clase 06: Recursividad](#clase-6-recursividad--backtracking)**
+- **[Clase 07: Divide y Vencerás](#clase-7-divide-y-vencerás)**
+- **[Clase 08: Archive Manager](#clase-8-archive-manager)**
+
+
+
 ## Clase 01. Intro a EMCAScript
 
 - Módulos ES6
     - Organización del código en archivos independientes
     - `export` para exponer funcionalidades
     - `import` para consumir desde otros módulos
-
 - Clases
     - Sintaxis más limpia que prototipos
     - Constructor para inicialización
     - Métodos como funciones en el prototipo
-
 - Array Functions
     - Callbacks concisos en métodos de array
     - Sintaxis más limpia en funciones cortas
+---
 
 ### Proyecto Práctico: [App Viajes](https://github.com/yuleiditho/JS-Logic-Algorithms/tree/main/01-Intro/appViajes)
 ![landing](/01-Intro/appViajes/assets/media/home.png) 
 
+---
 ## Clase 02. Estructuras de Datos
 
 Formas de organizar y almecenar datos para acceso y modificación eficiente
@@ -35,9 +48,12 @@ Formas de organizar y almecenar datos para acceso y modificación eficiente
     -   **Diccionarios**: Pares clave-valor (Objetos JS)
     -   **Conjunto**: Colección de elementos únicos
     -   **Hash-Tables**: Mapeo rápido mediante función hash
+---
 
 ### Proyecto Práctico [App Shopping List](https://github.com/yuleiditho/JS-Logic-Algorithms/tree/main/02-DataStructures/listaCompras)
 ![lading](/02-DataStructures/listaCompras/img/home.png)
+
+---
 
 ## Clase 03. Array Methods
 
@@ -89,6 +105,7 @@ Formas de organizar y almecenar datos para acceso y modificación eficiente
 
 </details>
 
+
 ## Clase 4. Punteros
 
 ### Solución [Invitados](https://github.com/yuleiditho/JS-Logic-Algorithms/tree/main/04-Punteros/guestEvent)
@@ -107,13 +124,14 @@ Este patrón es especialmente útil en los siguientes escenarios:
   - Encontrar pares de números con una suma específica.
   - Detectar subarreglos en listas.
 
+---
+
 ## Clase 5. Sliding Window
 
-### Solución [findLongestWord](https://github.com/yuleiditho/JS-Logic-Algorithms/tree/main/05-Sliding-Window/worldTool)
+### Solución [findLongestWord.js](https://github.com/yuleiditho/JS-Logic-Algorithms/tree/main/05-Sliding-Window/worldTool)
 
 El **sliding window** es una técnica común en algoritmos que se utiliza para analizar datos de manera eficiente, delimitando un rango o "ventana" que se mueve dinámicamente a lo largo de una estructura, como un arreglo o cadena de texto.
 
-### Características Clave:
 - **Ventana dinámica**: Se define un intervalo que "desliza" a través de los datos, procesando segmentos sin necesidad de recorrer todo varias veces.
 - **Eficiencia**: Reduce el tiempo de procesamiento al manejar datos localmente dentro de la ventana, eliminando cálculos repetitivos.
 - **Espacio optimizado**: En lugar de almacenar todos los segmentos, la ventana gestiona la información en curso.
@@ -122,9 +140,10 @@ El **sliding window** es una técnica común en algoritmos que se utiliza para a
 - **Eficiencia temporal**: Procesa los datos en una sola pasada `(O(n))`.
 - **Eficiencia espacial**: Usa poca memoria adicional, evitando estructuras innecesarias.
 
+---
 ## Clase 6. Recursividad & Backtracking
 
-### Solución [findGiftCombinations](https://github.com/yuleiditho/JS-Logic-Algorithms/blob/main/06-Recursive-Backtracking/toDoList/recursionAndBacktracking.js)
+### Solución [findGiftCombinations.js](https://github.com/yuleiditho/JS-Logic-Algorithms/blob/main/06-Recursive-Backtracking/toDoList/recursionAndBacktracking.js)
 
 ### Recursividad
 La **recursividad** es una técnica donde una función se llama a sí misma para resolver un problema. Es útil para dividir grandes tareas en partes más pequeñas y repetitivas.
@@ -138,8 +157,36 @@ El **backtracking** es una técnica que explora todas las posibles soluciones a 
 - **Exploración:** Genera posibles soluciones probando diferentes caminos.
 - **Retroceso:** Deshace opciones inválidas y prueba otras posibilidades.
 - **Eficiencia:** Encuentra todas las soluciones posibles en problemas complejos.
+---
+
+## Clase 7. Divide y Vencerás
+
+### Solución [divideAndConquer.js](https://github.com/yuleiditho/JS-Logic-Algorithms/blob/main/07-DivideAndConquer/project/divideAndConquer.js)
 
 
+**Divide y Vencerás** es un paradigma algorítmico que divide un problema grande en subproblemas más pequeños, los resuelve recursivamente y combina los resultados para obtener la solución final.
 
+### Etapas
+
+1. **Dividir**: Separar el problema en partes más pequeñas.
+2. **Resolver**: Solucionar cada parte (recursivamente si es necesario).
+3. **Combinar**: Unir las soluciones de los subproblemas.
+
+### Ventajas
+- **Eficiencia**: Reduce la complejidad procesando partes pequeñas.
+- **Escalabilidad**: Funciona bien con datos grandes.
+- **Legibilidad**: Aborda el problema de manera estructurada.
+
+## Clase 8. Archive Manager
+### Solución [gestorNotas.js](https://github.com/yuleiditho/JS-Logic-Algorithms/blob/main/08-Intro-ArchiveManager/project/gestorNotas.js)
+Utiliza el módulo `fs` de Node.js para crear, leer, escribir, modificar y eliminar archivos de manera eficiente.
+
+
+### Funciones Clave
+- **Abrir archivos**: `fs.open` permite abrir archivos en modos como lectura (`r`) o escritura (`w`).
+- **Leer archivos**: `fs.readFile` para obtener contenido de manera asíncrona.
+- **Escribir archivos**: `fs.writeFile` para crear o actualizar archivos.
+- **Añadir contenido**: `fs.appendFile` agrega datos al final del archivo.
+- **Eliminar/renombrar**: `fs.unlink` y `fs.rename`.
 
 
